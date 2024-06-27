@@ -9,7 +9,7 @@ source ${DIR}/set-env.sh
 #$DIR/20-backend/destroy.sh || true
 
 30-main/90-destroy.sh
-20-tf-backend/90-destroy.sh
+azcli 20-tf-backend/90-destroy.sh
 
 exit
 
